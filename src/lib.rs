@@ -1,4 +1,4 @@
-//! # Based Trading Binary
+//! # Based Trading Library
 //! Software to trade cryptocurrencies.
 //!
 //! # License
@@ -18,8 +18,12 @@
 //! You should have received a copy of the GNU Affero General Public License
 //! along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-use based_trading::hi;
-
-const fn main() {
-    _ = hi();
+/// Return 1
+/// # Examples
+/// ````
+/// assert_eq!(based_trading::hi(), 1);
+/// ````
+#[must_use]
+pub const fn hi() -> i32 {
+    1
 }
